@@ -41,8 +41,8 @@ module.exports = {
       filename: "remoteEntry.js",
 
     remotes: {
-        chatapp: "chatapp@http://localhost:3006/remoteEntry.js",
-        emailapp: "emailapp@http://localhost:3007/remoteEntry.js",
+        chatapp: "chatapp@https://micro-fe-chat.vercel.app/remoteEntry.js",
+        emailapp: "emailapp@https://micro-fe-email.vercel.app/remoteEntry.js",
         },
         
       exposes: {
